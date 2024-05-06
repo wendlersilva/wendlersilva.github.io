@@ -155,10 +155,31 @@ main .botao-meio:hover {
     padding-top: 70px;
 }
 
+/* Alinhamento projeto dei ingles */
 .explicacao-texto {
     text-align: center;
     padding-top: 20px;
     font-size: 1.2rem;
-    max-width: 1000px;
-    padding-left: 350px;
+}
+
+/* Habilidades */
+.titulo-habilidades {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.html5 img,
+.css3 img,
+.javascript img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.container-habilidades {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
 }
