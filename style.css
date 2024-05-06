@@ -1,4 +1,4 @@
-/* Configuracoes gerais */
+/* Configuracoes gerais e fonte */
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -11,7 +11,7 @@ body {
     height: 100vh;
 }
 
-/* Header */
+/* Header configuracoes barra superior */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -64,4 +64,68 @@ header .botao-contato button {
 header .botao-contato button:hover {
     background-color:#5851b8;
     transition: 0.5s;
+}
+
+/* Main do site usando display grid */
+.container-site {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto) 1fr;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-left: 250px;
+}
+
+.texto-site {
+    grid-column: 1;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.informacoes {
+    grid-column: 1;
+}
+
+.botao-meio {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.botao-meio a {
+    text-decoration: none;
+}
+
+.minha-imagem img {
+    height: 250px;
+    width: 300px;
+}
+
+.minha-imagem {
+    grid-column: 2;
+    grid-row: 1/3;
+}
+
+/* Customizacao botao meio */
+main .botao-meio{
+    padding: 15px 40px;
+    font-size: 18px;
+    background-color: #6d65e7;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    place-self: start;
+}
+
+main .botao-meio a{
+    color: #f4f4f4;
+}
+
+main .botao-meio:hover {
+    background-color:#5851b8;
+    transition: 0.5s;
+}
+
+/* Destaque de cor no ponto */
+.ponto-azul{
+    color: #6d65e7;
 }
