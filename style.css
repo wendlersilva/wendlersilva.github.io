@@ -84,6 +84,7 @@ header .botao-contato button:hover {
 
 .informacoes {
     grid-column: 1;
+    font-size: 1.2rem;
 }
 
 .botao-meio {
@@ -128,4 +129,35 @@ main .botao-meio:hover {
 /* Destaque de cor no ponto */
 .ponto-azul{
     color: #6d65e7;
+}
+
+/* Projetos */
+
+.container-projetos {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-left: 100px;
+}
+
+.imagens img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.titulo-projetos {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.explicacao-texto {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    max-width: 1000px;
+    padding-left: 350px;
 }
