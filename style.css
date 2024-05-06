@@ -1,0 +1,67 @@
+/* Configuracoes gerais */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    height: 100vh;
+}
+
+/* Header */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header a {
+    color: #0b0b0b;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 0 35px;
+}
+
+/* Customizacao botao contato */
+header .botao-contato button {
+    padding: 15px 40px;
+    font-size: 18px;
+    background-color: #6d65e7;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* Efeito hover header */
+header .menu a:hover{
+    color: #655dd2;
+    transition: 0.5s;
+}
+
+/* Cor botao contato */
+header .botao-contato button {
+    color: #f4f4f4;
+}
+
+/* Efeito hover botao contato */
+header .botao-contato button:hover {
+    background-color:#5851b8;
+    transition: 0.5s;
+}
