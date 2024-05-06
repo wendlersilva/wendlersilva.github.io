@@ -138,9 +138,10 @@ main .botao-meio:hover {
     align-items: center;
     padding-top: 70px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0 auto;
-    padding-left: 100px;
+    max-width: 1000;
+    padding-left: 40px;
 }
 
 .imagens img {
