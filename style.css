@@ -72,7 +72,7 @@ header .botao-contato button:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto) 1fr;
     margin: 0 auto;
-    padding-top: 70px;
+    padding-top: 40px;
     padding-left: 250px;
 }
 
@@ -136,7 +136,7 @@ main .botao-meio:hover {
 .container-projetos {
     display: flex;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 40px;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
@@ -152,7 +152,7 @@ main .botao-meio:hover {
 
 .titulo-projetos {
     text-align: center;
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 /* Alinhamento projeto dei ingles */
@@ -165,7 +165,7 @@ main .botao-meio:hover {
 /* Habilidades */
 .titulo-habilidades {
     text-align: center;
-    padding-top: 70px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
@@ -186,7 +186,7 @@ main .botao-meio:hover {
 
 /* Sobre mim */
 .texto-sobre {
-    padding-top: 70px;
+    padding-top: 40px;
     text-align: center;
     font-size: 1rem;
     padding-bottom: 40px;
@@ -219,4 +219,37 @@ main .botao-meio:hover {
 .informacoes4 {
     grid-column: 2;
     grid-row: 2/3;
+}
+
+/* Contato */
+.titulo-contato {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.formulario {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Bloquear mudar tamanho form */
+.bloqueio-tamanho {
+    resize: none;
+}
+
+.botao-form {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    padding: 15px 40px;
+    background-color: #ffffa3;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botao-form:hover {
+    background-color:#e5e591;
+    transition: 0.5s;
 }
